@@ -1,0 +1,207 @@
+ 
+/*Estilo para el menu*/
+ a{
+ 	list-style: none;
+ 	text-decoration: none;
+ }
+
+ li{
+    padding: 5px 5px 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+.boton:active {
+	background:rgb(70,70,70);
+
+}
+.boton{
+	/*Estilo de degradado Para el boton*/
+	background:linear-gradient(top,#00b7ea 20%,#009ec3 100%);
+	/*Pra poder visualizarlo en le navegador chrome*/
+	background:-webkit-linear-gradient(top,#00b7ea 0%,#009ec3 100%);
+	/*Pra poder visualizarlo en le navegador Morzilla*/
+	background:-moz-linear-gradient(top,#00b7ea 0%,#009ec3 100%);
+	/*Pra poder visualizarlo en le navegador Ms*/
+	background:-ms-linear-gradient(top,#00b7ea 0%,#009ec3 100%);
+	/*Color del texto*/
+	color: #FFF;
+	/*Estilo del texto*/
+	font:bold 17px Arial, Helvetica, sans-serif;
+	/*Le quita la decoracion al texto del enlace*/
+	text-decoration:none;
+	/*Centra el texto */
+	text-align:center;
+	/*Estilo de sombra*/
+	box-shadow:2px 0px 4px rgba(0,0,0,0,2);
+	/*Pra poder visualizarlo en le navegador chrome*/
+	-webkit-box-shadow:2px 0px 4px rgba(0,0,0,0.4);
+	/*Pra poder visualizarlo en le navegador Morzilla*/
+	-moz-box-shadow:2px 0px 4px rgba(0,0,0,0.4);
+	/*Pra poder visualizarlo en le navegador Ms*/
+	-ms-box-shadow:2px 0px 4px rgba(0,0,0,0.4);
+
+	border-radius: 10px;
+	
+	cursor: pointer;
+
+	padding: 9px;
+}
+
+
+/*Estilos para los SubMenu*/
+.botones li
+{
+	/*Estilo de animacion */
+	-ms-animation-duration:0.5s;
+	-moz-animation-duration:0.5s;
+	-webkit-animation-duration:0.5s;
+}
+
+
+/*Estilos para SubMenu animacion cuando el mause esta sobre el menu*/
+.botones>li:hover
+{
+
+	/*Estilo de animacion */
+	-ms-animation-name:BotonesSubmenu;
+	-moz-animation-name:BotonesSubmenu;
+	-webkit-animation-name:BotonesSubmenu;
+}
+
+/*Efectos de la animacion de los SubMenu para el navegador morzilla*/
+@-moz-keyframes BotonesSubmenu
+{
+	0%{
+		/*Estilos de sombras para los testos*/
+		text-shadow:200px 2px 20px #000000;
+	}
+	50%
+	{
+		/*Efectos de la animacion*/
+		-moz-transform:scale(1.3);
+		/*Estilos de bordes*/
+		border-radius:5px;
+		
+	}
+	100%{
+		/*Efectos de la animacion*/
+	-moz-transform:scale(1.1);
+		/*Estilos de sombras para los testos*/
+		text-shadow:2px 2px 1px #375F85;
+	}
+}
+/*Efectos de la animacion de los SubMenu para el navegador Explore*/
+@-ms-keyframes BotonesSubmenu
+{
+	0%{
+		/*Estilos de sombras para los testos*/
+		text-shadow:200px 2px 20px #000000;
+	}
+	50%
+	{
+		/*Efectos de la animacion*/
+		-ms-transform:scale(1.3);
+		/*Estilos de bordes*/
+		border-radius:5px;
+		
+	}
+	100%{
+		/*Efectos de la animacion*/
+	-ms-transform:scale(1.1);
+		/*Estilos de sombras para los testos*/
+		text-shadow:2px 2px 1px #375F85;
+	}
+}
+/*Efectos de la animacion de los SubMenu para el navegador Chrome*/
+@-webkit-keyframes BotonesSubmenu
+{
+	0%{
+		
+		/*Estilos de sombras para los testos*/
+		text-shadow:200px 2px 20px #000000;
+	}
+	50%
+	{
+		/*Efectos de la animacion*/
+		-webkit-transform:scale(1.2);
+		/*Estilos de bordes*/
+		border-radius:5px;
+		
+	}
+	100%{
+		/*Efectos de la animacion*/
+	-webkit-transform:scale(1.1);	
+	/*Estilos de sombras para los testos*/
+		text-shadow:2px 2px 1px #375F85;
+	}
+}
+/* Media query */
+@media(min-width: 1080px){
+
+}
+@media(max-width: 1024px){
+	
+}
+@media(max-width: 800px){
+	
+}
+@media(max-width: 768px){
+	
+}
+@media(max-width: 685px){
+	
+}
+@media(max-width: 600px){
+	li{
+		padding: 3px 2px 20px;
+		top: auto;
+	}
+	.boton{
+		border-radius: 6px;
+		font-size: 13px;
+		padding: 6px;
+	}
+}
+@media(max-width: 568px){
+    li{
+		padding: 3px 2px 15px;
+		top: auto;
+	}
+	.boton{
+		border-radius: 6px;
+		font-size: 12px;
+		padding: 6px;
+	}
+}
+@media(max-width: 480px){
+	
+}
+@media(max-width: 380px){
+	li{
+		padding: 3px 2px 15px;
+		top: auto;
+	}
+	.boton{
+		border-radius: 6px;
+		font-size: 14px;
+		padding: 6px;
+	}
+}
+@media(max-width: 320px){
+	li{
+		padding: 3px 2px 15px;
+		top: auto;
+	}
+	.boton{
+		border-radius: 6px;
+		font-size: 12px;
+		padding: 6px;
+	}
+}
+@media(max-width: 240px){
+	
+}
+
+
+	
+

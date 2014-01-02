@@ -1,0 +1,129 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	color:#000;
+	font-family:"Arial Black", sans-serif;
+}
+header{
+	background:rgb(0,118,168);
+	border-radius: 5px;
+	box-shadow: 0 0 10px #0C0C0C;
+	-webkit-box-shadow: 0 0 10px #0C0C0C;
+	-moz-box-shadow: 0 0 10px #0C0C0C;
+	-ms-box-shadow: 0 0 10px #0C0C0C;
+	-o-box-shadow: 0 0 10px #0C0C0C;
+	margin:0px auto;
+	max-width:90%;
+	padding:5px 0px;
+	text-align:center;
+}
+
+nav, footer{
+	border-radius: 0.5em;
+	margin:0px auto;
+	max-width:80%;
+	padding:10px;
+	text-align:center;
+}
+
+section#contenedor{    
+	border: 2px solid #E2E2E2;
+	border-radius: 5px;
+	margin:0px auto;
+	max-width:90%;
+	padding: 10px;
+	text-align:center;
+
+}
+
+section#principal, aside{
+	border-radius: 5px;
+	display: inline-block;
+	margin: 5px auto;
+	max-width:95%;
+	min-height:200px;
+	padding:5px;
+	text-align:center;
+	vertical-align:top;
+	width:60%;
+	box-shadow: 0 0 10px #0C0C0C;
+	-webkit-box-shadow: 0 0 10px #0C0C0C;
+	-moz-box-shadow: 0 0 10px #0C0C0C;
+	-ms-box-shadow: 0 0 10px #0C0C0C;
+	-o-box-shadow: 0 0 10px #0C0C0C;
+
+}
+article{
+	border-radius:0.5em;
+	min-height:150px;
+	padding:20px;
+}
+aside{
+	display: inline-block;
+	text-align: left;
+	width:30%;
+}
+/* Media query */
+@media(min-width: 1080px){
+    header{
+    	max-width: 80%;
+    }
+    nav,footer{
+    	max-width: 80%;
+    }
+    section#contenedor{
+    	max-width: 78%;
+    }
+}
+@media(max-width: 1024px){
+	
+}
+@media(max-width: 800px){
+	
+}
+@media(max-width: 768px){
+	
+}
+@media(max-width: 685px){
+	
+}
+@media(max-width: 600px){
+	section#principal,aside{
+		margin: 5px;
+		display: block;
+		width: 95%
+	}
+}
+@media(max-width: 568px){
+	section#principal,aside{
+		margin: 5px;
+		display: block;
+		width: 98%
+	}
+}
+@media(max-width: 480px){
+	section#principal,aside{
+		margin: 5px;
+		display: block;
+		width: 95%
+	}
+}
+@media(max-width: 380px){
+	
+}
+@media(max-width: 320px){
+	section#principal,aside{
+		margin: 5px;
+		display: block;
+		width: 92%
+	}
+}
+@media(max-width: 240px){
+	section#principal,aside{
+		margin: 5px;
+		display: block;
+		width: 90%
+	}
+}

@@ -1,0 +1,10 @@
+CREATE TABLE datos(
+	id INT NOT NULL AUTO_INCREMENT,
+	nombre varchar(30) NULL,
+	apellido varchar(30) NULL,
+	telcel varchar(30) NULL,
+	email varchar(30) NULL,
+	imagen varchar(100) NULL,
+	fecha varchar(30) NULL,
+	PRIMARY KEY(ID)
+	);

@@ -1,0 +1,174 @@
+#img1{
+	
+	max-width: 90%;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #0C0C0C;
+	-webkit-box-shadow: 0 0 10px #0C0C0C;
+	-moz-box-shadow: 0 0 10px #0C0C0C;
+	-ms-box-shadow: 0 0 10px #0C0C0C;
+	-o-box-shadow: 0 0 10px #0C0C0C;
+}
+#content{
+	padding: 10px 10px;
+	text-align:center;
+}
+#login {
+padding:0px;
+}
+
+ #login a {
+	color: rgb(216,216,216);
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0px;
+}
+#login a:hover {
+	color: #FFF;
+	
+}
+#loginpanel {
+	/*Estilo de degradado Para el boton*/
+	background:linear-gradient(top,#00b7ea 20%,#009ec3 100%);
+	/*Pra poder visualizarlo en le navegador chrome*/
+	background:-webkit-linear-gradient(top,#00b7ea 0%,#009ec3 100%);
+	/*Pra poder visualizarlo en le navegador Morzilla*/
+	background:-moz-linear-gradient(top,#00b7ea 0%,#009ec3 100%);
+	/*Pra poder visualizarlo en le navegador Ms*/
+	background:-ms-linear-gradient(top,#00b7ea 0%,#009ec3 100%);
+	border-radius: 5px;
+    color: #FFF;
+	padding: 15px; 
+	text-align: center;
+}
+
+
+ input{
+	border-radius: 5px;
+	background: #EEE;
+	border:none;
+	font:bold 15px Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	height: 25px;
+	margin: 10px;
+	padding: 2px;
+	width: 200px ;	
+	box-shadow:2px 0px 4px rgba(0,0,0,0.4);
+	/*Pra poder visualizarlo en le navegador chrome*/
+	-webkit-box-shadow:2px 0px 4px rgba(0,0,0,0.4);
+	/*Pra poder visualizarlo en le navegador Morzilla*/
+	-moz-box-shadow:2px 0px 4px rgba(0,0,0,0.4);
+	/*Pra poder visualizarlo en le navegador Ms*/
+	-ms-box-shadow:2px 0px 4px rgba(0,0,0,0.4);
+}
+
+ button {
+	
+    border-style: none;
+   /*Estilo de degradado Para el boton*/
+	background:rgb(39,39,39);
+	/*Color del texto*/
+	box-shadow:2px 0px 4px rgba(0,0,0,0.2);
+	/*Pra poder visualizarlo en le navegador chrome*/
+	-webkit-box-shadow:2px 0px 4px rgba(0,0,0,0.4);
+	/*Pra poder visualizarlo en le navegador Morzilla*/
+	-moz-box-shadow:2px 0px 4px rgba(0,0,0,0.4);
+	/*Pra poder visualizarlo en le navegador Ms*/
+	-ms-box-shadow:2px 0px 4px rgba(0,0,0,0.4);
+	border-radius: 8px ;
+	color: rgb(216,216,216);
+	cursor: pointer;
+    font:bold 15px Arial, Helvetica, sans-serif;
+    padding: 8px;
+	
+}
+button:hover {
+	/*Estilo de animacion */
+	color: #FFF;
+}
+#username{
+	width: 100px;
+}
+button:active {
+	background:rgb(70,70,70);
+
+}
+#submit{
+	padding: 10px;
+}
+/* Media query */
+@media(min-width: 1080px){
+
+}
+@media(max-width: 1024px){
+	
+}
+@media(max-width: 800px){
+	
+}
+@media(max-width: 768px){
+	
+}
+@media(max-width: 685px){
+	input{
+		height: 20px;
+		width: 90%;
+	}
+	#loginpanel{
+		padding: 5px;
+	}
+}
+@media(max-width: 600px){
+	
+}
+@media(max-width: 568px){
+	input{
+		height: 25px;
+		width: 90%;
+	}
+	#loginpanel{
+		padding: 5px;
+	}
+}
+@media(max-width: 480px){
+	input{
+		height: 25px;
+		width: 90%;
+	}
+	#img1{
+		border-radius: 5px;
+	}
+	#loginpanel{
+		padding: 5px;
+	}
+}
+@media(max-width: 380px){
+	
+}
+@media(max-width: 320px){
+	input{
+		height: 25px;
+		width: 85%;
+	}
+	#img1{
+		border-radius: 5px;
+	}
+	#loginpanel{
+		padding: 5px;
+	}
+}
+@media(max-width: 240px){
+	input{
+		height: 20px;
+		width: 90%;
+		margin: 7px auto;
+	}
+	#img1{
+		border-radius: 3px;
+	}
+	#img2{
+		max-width: 90%;
+	}
+	#loginpanel{
+		padding: 5px;
+	}
+}
